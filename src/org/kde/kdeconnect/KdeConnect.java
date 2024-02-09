@@ -18,6 +18,8 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.klinker.android.send_message.BuildConfig;
+
 import org.kde.kdeconnect.Backends.BaseLink;
 import org.kde.kdeconnect.Backends.BaseLinkProvider;
 import org.kde.kdeconnect.Helpers.DeviceHelper;
@@ -29,7 +31,6 @@ import org.kde.kdeconnect.Plugins.Plugin;
 import org.kde.kdeconnect.Plugins.PluginFactory;
 import org.kde.kdeconnect.UserInterface.MainActivity;
 import org.kde.kdeconnect.UserInterface.ThemeUtil;
-import org.kde.kdeconnect_tp.BuildConfig;
 import org.slf4j.impl.HandroidLoggerAdapter;
 
 import java.security.cert.CertificateException;

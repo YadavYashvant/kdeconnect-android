@@ -332,6 +332,7 @@ class MainActivity : AppCompatActivity(), OnSharedPreferenceChangeListener {
         outState.putInt(STATE_SELECTED_MENU_ENTRY, mCurrentMenuEntry)
     }
 
+    // Will replace it with more modern way of handling onActivityResult
     @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         when {
